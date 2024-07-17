@@ -7,8 +7,8 @@ z = float(input("Finally enter the total cost of the house"))
 #Does the calculations for how many months to save
 
 down_payment = z * 0.25
-annual_savings = x * y
-monthly_savings = annual_savings / 12
+monthly_salary = x / 12
+monthly_savings = monthly_salary * .20
 months = down_payment / monthly_savings
 
 #The number months it takes to save for the house
